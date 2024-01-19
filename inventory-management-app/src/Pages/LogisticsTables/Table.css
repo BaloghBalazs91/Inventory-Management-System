@@ -1,0 +1,92 @@
+/* Apply a global black and white style */
+body {
+    background-color: #fff; /* White background */
+    color: #000; /* Black text color */
+  }
+  
+  /* Style the table */
+  table {
+    width:100%;
+    border-collapse:separate;
+  }
+  
+  /* Style table header */
+  th {
+    background-color: #000; /* Black header background color */
+    color: #fff; /* White header text color */
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style alternating rows */
+  tr:nth-child(even) {
+    background-color: #eee; /* Light gray background for even rows */
+  }
+  
+  /* Style table cells */
+  td, th {
+    border: 1px solid #000; /* Black border for cells */
+    padding: 10px;
+  }
+
+  th{
+    background: linear-gradient(to bottom, #47d7f7, #117E99);
+  }
+
+  td {
+    background-color: #e9d543;
+  }
+  
+  /* Style links inside the table */
+  a {
+    color: #000; /* Black link color */
+    text-decoration: none; /* Remove underlines from links */
+  }
+  
+  a:hover {
+    color: #555; /* Dark gray on hover for links */
+  }
+  
+  .Table {
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: center;
+  }
+
+  /* Style buttons inside the table */
+  .Table button {
+    background-color: #000; /* Black button background color */
+    color: #fff; /* White button text color */
+    border: 1px solid #000; /* Black button border */
+    padding: 5px 10px; /* Add padding to buttons for a better appearance */
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+  }
+  
+  .Table button:hover {
+    background-color: #2f8d43; /* Dark gray on hover for buttons */
+    border: 1px solid #555; /* Dark gray border on hover for buttons */
+  }
+
+  .orderButton {
+    background-color: #000; /* Black button background color */
+    color: #fff; /* White button text color */
+    border: 1px solid #000; /* Black button border */
+    padding: 5px 10px; /* Add padding to buttons for a better appearance */
+    font-size: larger;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .orderButton:hover{
+    background-color: #2f8d43; /* Dark gray on hover for buttons */
+    border: 1px solid #555; /* Dark gray border on hover for buttons */
+  }
